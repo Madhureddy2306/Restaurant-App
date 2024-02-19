@@ -1,0 +1,131 @@
+.dish-vegan {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vegan-icon {
+  width: 70%;
+  height: 25px;
+}
+.remaining-div {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-div {
+  width: 60%;
+  height: 100%;
+}
+.second-div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.third-div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dish-heading {
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 2px;
+}
+.dish-price {
+  color: darkgrey;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px;
+}
+.dish-desc {
+  color: grey;
+  font-size: 12px;
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+.calories {
+  color: orange;
+  font-size: 15px;
+  font-weight: 500;
+}
+.dish-img {
+  height: 90%;
+  width: 90%;
+  background-position: center;
+}
+.buttons-div {
+  background-color: green;
+  height: 30px;
+  width: 15%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+.btn {
+  background-color: transparent;
+  height: 90%;
+  width: 30%;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+.link {
+  color: blue;
+  font-size: 14px;
+  margin: 0px;
+}
+.not-available {
+  font-size: 15px;
+  font-weight: 500;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .dish-heading {
+    font-size: 18px;
+  }
+  .dish-price {
+    font-size: 14px;
+    margin: 2%;
+  }
+  .buttons-div {
+    width: 25%;
+    height: 22px;
+  }
+  .btn {
+    font-size: 8px;
+  }
+  .dish-desc {
+    font-size: 10px;
+    width: 100%;
+  }
+  .dish-img {
+    height: 85px;
+  }
+  .link {
+    font-size: 12px;
+  }
+  .calories {
+    font-size: 12px;
+  }
+}
