@@ -1,46 +1,7 @@
 .restaurant-main {
   height: 100vh;
-  width: 100vw;
-  background-color: white;
-}
-.header {
-  height: 8%;
   width: 100%;
-  border-bottom: solid 2px rgb(130, 127, 127);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main-heading {
-  color: #000000;
-  font-size: 26px;
-  margin-left: 1%;
-}
-.cart-div {
-  width: 15%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-}
-.orders {
-  font-size: 16px;
-  font-weight: 500;
-  color: #000000;
-  margin-right: 1%;
-}
-.cart-icon {
-  height: 40px;
-  width: 40px;
-}
-.cart-count {
-  background-color: orange;
-  font-size: 14px;
-  border-radius: 20px;
-  padding: 2px;
-  color: #ffffff;
-  font-weight: 500;
+  background-color: white;
 }
 
 .scroll-categories {
@@ -85,7 +46,7 @@
 }
 .list-item {
   width: 99%;
-  height: 32%;
+  height: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;

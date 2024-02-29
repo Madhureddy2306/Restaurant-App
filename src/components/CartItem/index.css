@@ -1,0 +1,33 @@
+.cart-item {
+  list-style-type: none;
+  width: 98%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 2px lightsalmon;
+  border-radius: 4px;
+  padding: 0.5%;
+}
+.h1 {
+  font-size: 22px;
+  width: 20%;
+}
+.p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.dish-img-cart {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border-radius: 5px;
+}
+.q-btn {
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+.remove {
+  cursor: pointer;
+}
